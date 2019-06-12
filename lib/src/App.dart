@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/src/pages/home.dart';
+import 'package:flutter_widgets/src/pages/material_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -10,7 +11,8 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/': (context) => HomePage()
+        '/': (context) => HomePage(),
+        '/material-design': (context) => MaterialDesignPage(),
       },
     );
   }
