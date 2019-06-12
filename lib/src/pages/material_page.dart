@@ -30,6 +30,10 @@ class MaterialDesignPage extends StatelessWidget{
               title: Text('Drawer'),
               onTap: () => Navigator.of(context).pushNamed('/drawer'),
             ),
+            ListTile(
+              title: Text('SliverAppBar'),
+              onTap: () => Navigator.of(context).pushNamed('/sliver-app-bar'),
+            ),
           ],
         ),
       ),
