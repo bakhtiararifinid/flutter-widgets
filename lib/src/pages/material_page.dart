@@ -13,6 +13,10 @@ class MaterialDesignPage extends StatelessWidget{
             ListTile(
               title: Text('Scaffold'),
               onTap: () => Navigator.of(context).pushNamed('/scaffold'),
+            ),
+            ListTile(
+              title: Text('AppBar'),
+              onTap: () => Navigator.of(context).pushNamed('/appbar'),
             )
           ],
         ),
