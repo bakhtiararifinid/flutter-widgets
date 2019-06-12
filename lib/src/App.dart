@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/src/pages/appbar_page.dart';
 import 'package:flutter_widgets/src/pages/bottom_navigation_bar_page.dart';
+import 'package:flutter_widgets/src/pages/drawer_page.dart';
 import 'package:flutter_widgets/src/pages/home.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
 import 'package:flutter_widgets/src/pages/scaffold_page.dart';
@@ -21,6 +22,7 @@ class App extends StatelessWidget {
         '/appbar': (context) => AppBarPage(),
         '/bottom-navigation-bar': (context) => BottomNavigationBarPage(),
         '/tab-bar': (context) => TabBarPage(),
+        '/drawer': (context) => DrawerPage(),
       },
     );
   }
