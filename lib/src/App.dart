@@ -4,6 +4,7 @@ import 'package:flutter_widgets/src/pages/bottom_navigation_bar_page.dart';
 import 'package:flutter_widgets/src/pages/home.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
 import 'package:flutter_widgets/src/pages/scaffold_page.dart';
+import 'package:flutter_widgets/src/pages/tab_bar.dart';
 
 class App extends StatelessWidget {
   @override
@@ -19,6 +20,7 @@ class App extends StatelessWidget {
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
         '/bottom-navigation-bar': (context) => BottomNavigationBarPage(),
+        '/tab-bar': (context) => TabBarPage(),
       },
     );
   }
