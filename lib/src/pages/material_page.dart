@@ -17,7 +17,11 @@ class MaterialDesignPage extends StatelessWidget{
             ListTile(
               title: Text('AppBar'),
               onTap: () => Navigator.of(context).pushNamed('/appbar'),
-            )
+            ),
+            ListTile(
+              title: Text('BottomNavigationBar'),
+              onTap: () => Navigator.of(context).pushNamed('/bottom-navigation-bar'),
+            ),
           ],
         ),
       ),
