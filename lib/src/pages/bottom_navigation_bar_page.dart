@@ -34,7 +34,7 @@ class _BottomNavigationBarPageState extends State<BottomNavigationBarPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('BottomAppBar'),
+          title: Text('BottomNavigationBar'),
         ),
         body: Center(
           child: _widgetOptions.elementAt(_selectedIndex),
