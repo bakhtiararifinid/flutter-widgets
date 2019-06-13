@@ -11,9 +11,13 @@ class HomePage extends StatelessWidget{
         child: ListView(
           children: <Widget>[
             ListTile(
+              title: Text('Basic'),
+              onTap: () => Navigator.of(context).pushNamed('/basic'),
+            ),
+            ListTile(
               title: Text('Material Design'),
               onTap: () => Navigator.of(context).pushNamed('/material-design'),
-            )
+            ),
           ],
         ),
       ),
