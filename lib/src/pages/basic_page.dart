@@ -17,6 +17,10 @@ class BasicPage extends StatelessWidget {
             title: Text('Row'),
             onTap: () => Navigator.of(context).pushNamed('/row'),
           ),
+          ListTile(
+            title: Text('Column'),
+            onTap: () => Navigator.of(context).pushNamed('/column'),
+          ),
         ],
       ),
     );
