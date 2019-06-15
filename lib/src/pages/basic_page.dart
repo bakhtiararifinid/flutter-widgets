@@ -25,6 +25,10 @@ class BasicPage extends StatelessWidget {
             title: Text('Image'),
             onTap: () => Navigator.of(context).pushNamed('/image'),
           ),
+          ListTile(
+            title: Text('Text'),
+            onTap: () => Navigator.of(context).pushNamed('/text'),
+          ),
         ],
       ),
     );

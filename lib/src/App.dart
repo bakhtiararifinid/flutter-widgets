@@ -12,6 +12,7 @@ import 'package:flutter_widgets/src/pages/row_page.dart';
 import 'package:flutter_widgets/src/pages/scaffold_page.dart';
 import 'package:flutter_widgets/src/pages/sliver_app_bar_page.dart';
 import 'package:flutter_widgets/src/pages/tab_bar.dart';
+import 'package:flutter_widgets/src/pages/text_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -28,6 +29,7 @@ class App extends StatelessWidget {
         '/row': (context) => RowPage(),
         '/column': (context) => ColumnPage(),
         '/image': (context) => ImagePage(),
+        '/text': (context) => TextPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
