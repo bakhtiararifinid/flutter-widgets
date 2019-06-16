@@ -45,6 +45,10 @@ class BasicPage extends StatelessWidget {
             title: Text('AppBar'),
             onTap: () => Navigator.of(context).pushNamed('/appbar'),
           ),
+          ListTile(
+            title: Text('Placeholder'),
+            onTap: () => Navigator.of(context).pushNamed('/placeholder'),
+          ),
         ],
       ),
     );
