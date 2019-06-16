@@ -33,6 +33,10 @@ class BasicPage extends StatelessWidget {
             title: Text('Icon'),
             onTap: () => Navigator.of(context).pushNamed('/icon'),
           ),
+          ListTile(
+            title: Text('RaisedButton'),
+            onTap: () => Navigator.of(context).pushNamed('/raised-button'),
+          ),
         ],
       ),
     );
