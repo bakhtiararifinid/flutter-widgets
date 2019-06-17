@@ -8,6 +8,7 @@ import 'package:flutter_widgets/src/pages/drawer_page.dart';
 import 'package:flutter_widgets/src/pages/home.dart';
 import 'package:flutter_widgets/src/pages/icon_page.dart';
 import 'package:flutter_widgets/src/pages/image_page.dart';
+import 'package:flutter_widgets/src/pages/layout_page.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
 import 'package:flutter_widgets/src/pages/placeholder_page.dart';
 import 'package:flutter_widgets/src/pages/raised_button_page.dart';
@@ -36,6 +37,7 @@ class App extends StatelessWidget {
         '/icon': (context) => IconPage(),
         '/raised-button': (context) => RaisedButtonPage(),
         '/placeholder': (context) => PlaceholderPage(),
+        '/layout': (context) => LayoutPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),

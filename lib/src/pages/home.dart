@@ -15,6 +15,10 @@ class HomePage extends StatelessWidget{
               onTap: () => Navigator.of(context).pushNamed('/basic'),
             ),
             ListTile(
+              title: Text('Layout'),
+              onTap: () => Navigator.of(context).pushNamed('/layout'),
+            ),
+            ListTile(
               title: Text('Material Design'),
               onTap: () => Navigator.of(context).pushNamed('/material-design'),
             ),
