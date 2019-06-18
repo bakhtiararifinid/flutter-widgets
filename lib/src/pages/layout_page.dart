@@ -13,6 +13,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('Container'),
             onTap: () => Navigator.of(context).pushNamed('/container'),
           ),
+          ListTile(
+            title: Text('Padding'),
+            onTap: () => Navigator.of(context).pushNamed('/padding'),
+          ),
         ],
       ),
     );
