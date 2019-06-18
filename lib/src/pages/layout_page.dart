@@ -25,6 +25,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('Align'),
             onTap: () => Navigator.of(context).pushNamed('/align'),
           ),
+          ListTile(
+            title: Text('FittedBox'),
+            onTap: () => Navigator.of(context).pushNamed('/fitted-box'),
+          ),
         ],
       ),
     );

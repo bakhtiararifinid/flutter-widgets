@@ -7,6 +7,7 @@ import 'package:flutter_widgets/src/pages/center_page.dart';
 import 'package:flutter_widgets/src/pages/column_page.dart';
 import 'package:flutter_widgets/src/pages/container_page.dart';
 import 'package:flutter_widgets/src/pages/drawer_page.dart';
+import 'package:flutter_widgets/src/pages/fitted_box_page.dart';
 import 'package:flutter_widgets/src/pages/home.dart';
 import 'package:flutter_widgets/src/pages/icon_page.dart';
 import 'package:flutter_widgets/src/pages/image_page.dart';
@@ -44,6 +45,7 @@ class App extends StatelessWidget {
         '/padding': (context) => PaddingPage(),
         '/center': (context) => CenterPage(),
         '/align': (context) => AlignPage(),
+        '/fitted-box': (context) => FittedBoxPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
