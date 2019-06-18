@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/src/pages/align_page.dart';
 import 'package:flutter_widgets/src/pages/appbar_page.dart';
+import 'package:flutter_widgets/src/pages/aspect_ratio_page.dart';
 import 'package:flutter_widgets/src/pages/basic_page.dart';
 import 'package:flutter_widgets/src/pages/bottom_navigation_bar_page.dart';
 import 'package:flutter_widgets/src/pages/center_page.dart';
@@ -36,6 +37,7 @@ class App extends StatelessWidget {
         '/container': (context) => ContainerPage(),
         '/row': (context) => RowPage(),
         '/column': (context) => ColumnPage(),
+        '/aspect-ratio': (context) => AspectRatioPage(),
         '/image': (context) => ImagePage(),
         '/text': (context) => TextPage(),
         '/icon': (context) => IconPage(),
