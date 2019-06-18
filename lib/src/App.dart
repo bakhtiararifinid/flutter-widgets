@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/src/pages/appbar_page.dart';
 import 'package:flutter_widgets/src/pages/basic_page.dart';
 import 'package:flutter_widgets/src/pages/bottom_navigation_bar_page.dart';
+import 'package:flutter_widgets/src/pages/center_page.dart';
 import 'package:flutter_widgets/src/pages/column_page.dart';
 import 'package:flutter_widgets/src/pages/container_page.dart';
 import 'package:flutter_widgets/src/pages/drawer_page.dart';
@@ -40,6 +41,7 @@ class App extends StatelessWidget {
         '/placeholder': (context) => PlaceholderPage(),
         '/layout': (context) => LayoutPage(),
         '/padding': (context) => PaddingPage(),
+        '/center': (context) => CenterPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
