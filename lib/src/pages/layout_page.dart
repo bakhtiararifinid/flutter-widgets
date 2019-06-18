@@ -21,6 +21,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('Center'),
             onTap: () => Navigator.of(context).pushNamed('/center'),
           ),
+          ListTile(
+            title: Text('Align'),
+            onTap: () => Navigator.of(context).pushNamed('/align'),
+          ),
         ],
       ),
     );

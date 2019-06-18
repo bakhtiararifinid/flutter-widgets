@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/src/pages/align_page.dart';
 import 'package:flutter_widgets/src/pages/appbar_page.dart';
 import 'package:flutter_widgets/src/pages/basic_page.dart';
 import 'package:flutter_widgets/src/pages/bottom_navigation_bar_page.dart';
@@ -42,6 +43,7 @@ class App extends StatelessWidget {
         '/layout': (context) => LayoutPage(),
         '/padding': (context) => PaddingPage(),
         '/center': (context) => CenterPage(),
+        '/align': (context) => AlignPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
