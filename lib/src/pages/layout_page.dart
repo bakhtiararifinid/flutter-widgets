@@ -33,6 +33,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('AspectRatio'),
             onTap: () => Navigator.of(context).pushNamed('/aspect-ratio'),
           ),
+          ListTile(
+            title: Text('ConstrainedBox'),
+            onTap: () => Navigator.of(context).pushNamed('/constrained-box'),
+          ),
         ],
       ),
     );

@@ -6,6 +6,7 @@ import 'package:flutter_widgets/src/pages/basic_page.dart';
 import 'package:flutter_widgets/src/pages/bottom_navigation_bar_page.dart';
 import 'package:flutter_widgets/src/pages/center_page.dart';
 import 'package:flutter_widgets/src/pages/column_page.dart';
+import 'package:flutter_widgets/src/pages/constrained_box_page.dart';
 import 'package:flutter_widgets/src/pages/container_page.dart';
 import 'package:flutter_widgets/src/pages/drawer_page.dart';
 import 'package:flutter_widgets/src/pages/fitted_box_page.dart';
@@ -38,6 +39,7 @@ class App extends StatelessWidget {
         '/row': (context) => RowPage(),
         '/column': (context) => ColumnPage(),
         '/aspect-ratio': (context) => AspectRatioPage(),
+        '/constrained-box': (context) => ConstrainedBoxPage(),
         '/image': (context) => ImagePage(),
         '/text': (context) => TextPage(),
         '/icon': (context) => IconPage(),
