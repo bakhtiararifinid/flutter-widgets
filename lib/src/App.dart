@@ -18,6 +18,7 @@ import 'package:flutter_widgets/src/pages/image_page.dart';
 import 'package:flutter_widgets/src/pages/intrinsic_height_page.dart';
 import 'package:flutter_widgets/src/pages/intrinsic_width_page.dart';
 import 'package:flutter_widgets/src/pages/layout_page.dart';
+import 'package:flutter_widgets/src/pages/limited_box_page.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
 import 'package:flutter_widgets/src/pages/padding_page.dart';
 import 'package:flutter_widgets/src/pages/placeholder_page.dart';
@@ -58,6 +59,7 @@ class App extends StatelessWidget {
         '/fractionally-sized-box': (context) => FractionallySizedBoxPage(),
         '/intrinsic-height': (context) => IntrinsicHeightPage(),
         '/intrinsic-width': (context) => IntrinsicWidthPage(),
+        '/limited-box': (context) => LimitedBoxPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),

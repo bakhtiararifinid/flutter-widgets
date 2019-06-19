@@ -53,6 +53,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('IntrinsicWidth'),
             onTap: () => Navigator.of(context).pushNamed('/intrinsic-width'),
           ),
+          ListTile(
+            title: Text('LimitedBox'),
+            onTap: () => Navigator.of(context).pushNamed('/limited-box'),
+          ),
         ],
       ),
     );
