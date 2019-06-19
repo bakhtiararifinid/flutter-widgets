@@ -61,6 +61,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('Offstage'),
             onTap: () => Navigator.of(context).pushNamed('/offstage'),
           ),
+          ListTile(
+            title: Text('OverflowBox'),
+            onTap: () => Navigator.of(context).pushNamed('/overflow-box'),
+          ),
         ],
       ),
     );

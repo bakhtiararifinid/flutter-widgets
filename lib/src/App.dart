@@ -21,6 +21,7 @@ import 'package:flutter_widgets/src/pages/layout_page.dart';
 import 'package:flutter_widgets/src/pages/limited_box_page.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
 import 'package:flutter_widgets/src/pages/offstage_page.dart';
+import 'package:flutter_widgets/src/pages/overflow_box_page.dart';
 import 'package:flutter_widgets/src/pages/padding_page.dart';
 import 'package:flutter_widgets/src/pages/placeholder_page.dart';
 import 'package:flutter_widgets/src/pages/raised_button_page.dart';
@@ -62,6 +63,7 @@ class App extends StatelessWidget {
         '/intrinsic-width': (context) => IntrinsicWidthPage(),
         '/limited-box': (context) => LimitedBoxPage(),
         '/offstage': (context) => OffstagePage(),
+        '/overflow-box': (context) => OverflowBoxPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
