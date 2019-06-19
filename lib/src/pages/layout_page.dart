@@ -69,6 +69,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('SizedBox'),
             onTap: () => Navigator.of(context).pushNamed('/sized-box'),
           ),
+          ListTile(
+            title: Text('SizedOverflowBox'),
+            onTap: () => Navigator.of(context).pushNamed('/sized-overflow-box'),
+          ),
         ],
       ),
     );
