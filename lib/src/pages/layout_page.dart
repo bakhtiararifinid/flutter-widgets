@@ -106,6 +106,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('Stack'),
             onTap: () => Navigator.of(context).pushNamed('/stack'),
           ),
+          ListTile(
+            title: Text('IndexsedStack'),
+            onTap: () => Navigator.of(context).pushNamed('/indexed-stack'),
+          ),
         ],
       ),
     );
