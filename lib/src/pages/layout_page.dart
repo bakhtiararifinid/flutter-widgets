@@ -57,6 +57,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('LimitedBox'),
             onTap: () => Navigator.of(context).pushNamed('/limited-box'),
           ),
+          ListTile(
+            title: Text('Offstage'),
+            onTap: () => Navigator.of(context).pushNamed('/offstage'),
+          ),
         ],
       ),
     );
