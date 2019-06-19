@@ -45,6 +45,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('FractionallySizedBox'),
             onTap: () => Navigator.of(context).pushNamed('/fractionally-sized-box'),
           ),
+          ListTile(
+            title: Text('IntrinsicHeight'),
+            onTap: () => Navigator.of(context).pushNamed('/intrinsic-height'),
+          ),
         ],
       ),
     );
