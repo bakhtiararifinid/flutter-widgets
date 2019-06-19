@@ -27,6 +27,7 @@ import 'package:flutter_widgets/src/pages/placeholder_page.dart';
 import 'package:flutter_widgets/src/pages/raised_button_page.dart';
 import 'package:flutter_widgets/src/pages/row_page.dart';
 import 'package:flutter_widgets/src/pages/scaffold_page.dart';
+import 'package:flutter_widgets/src/pages/sized_box.dart';
 import 'package:flutter_widgets/src/pages/sliver_app_bar_page.dart';
 import 'package:flutter_widgets/src/pages/tab_bar.dart';
 import 'package:flutter_widgets/src/pages/text_page.dart';
@@ -64,6 +65,7 @@ class App extends StatelessWidget {
         '/limited-box': (context) => LimitedBoxPage(),
         '/offstage': (context) => OffstagePage(),
         '/overflow-box': (context) => OverflowBoxPage(),
+        '/sized-box': (context) => SizedBoxPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
