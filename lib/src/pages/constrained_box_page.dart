@@ -14,6 +14,7 @@ class ConstrainedBoxPage extends StatelessWidget {
             color: Colors.red,
             width: 200,
             height: 300,
+            child: Text('this box is constrained to 100 x 100 px'),
           ),
         ),
       ),

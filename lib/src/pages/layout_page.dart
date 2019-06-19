@@ -37,6 +37,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('ConstrainedBox'),
             onTap: () => Navigator.of(context).pushNamed('/constrained-box'),
           ),
+          ListTile(
+            title: Text('BaseLine'),
+            onTap: () => Navigator.of(context).pushNamed('/base-line'),
+          ),
         ],
       ),
     );
