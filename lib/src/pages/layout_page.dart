@@ -49,6 +49,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('IntrinsicHeight'),
             onTap: () => Navigator.of(context).pushNamed('/intrinsic-height'),
           ),
+          ListTile(
+            title: Text('IntrinsicWidth'),
+            onTap: () => Navigator.of(context).pushNamed('/intrinsic-width'),
+          ),
         ],
       ),
     );

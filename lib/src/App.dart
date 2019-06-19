@@ -16,6 +16,7 @@ import 'package:flutter_widgets/src/pages/home.dart';
 import 'package:flutter_widgets/src/pages/icon_page.dart';
 import 'package:flutter_widgets/src/pages/image_page.dart';
 import 'package:flutter_widgets/src/pages/intrinsic_height_page.dart';
+import 'package:flutter_widgets/src/pages/intrinsic_width_page.dart';
 import 'package:flutter_widgets/src/pages/layout_page.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
 import 'package:flutter_widgets/src/pages/padding_page.dart';
@@ -56,6 +57,7 @@ class App extends StatelessWidget {
         '/base-line': (context) => BaseLinePage(),
         '/fractionally-sized-box': (context) => FractionallySizedBoxPage(),
         '/intrinsic-height': (context) => IntrinsicHeightPage(),
+        '/intrinsic-width': (context) => IntrinsicWidthPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
