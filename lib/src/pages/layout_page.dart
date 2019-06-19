@@ -102,6 +102,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('Column'),
             onTap: () => Navigator.of(context).pushNamed('/column'),
           ),
+          ListTile(
+            title: Text('Stack'),
+            onTap: () => Navigator.of(context).pushNamed('/stack'),
+          ),
         ],
       ),
     );

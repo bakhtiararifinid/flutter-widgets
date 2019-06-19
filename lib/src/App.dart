@@ -30,6 +30,7 @@ import 'package:flutter_widgets/src/pages/scaffold_page.dart';
 import 'package:flutter_widgets/src/pages/sized_box.dart';
 import 'package:flutter_widgets/src/pages/sized_overflow_box_page.dart';
 import 'package:flutter_widgets/src/pages/sliver_app_bar_page.dart';
+import 'package:flutter_widgets/src/pages/stack_page.dart';
 import 'package:flutter_widgets/src/pages/tab_bar.dart';
 import 'package:flutter_widgets/src/pages/text_page.dart';
 import 'package:flutter_widgets/src/pages/transform_page.dart';
@@ -70,6 +71,7 @@ class App extends StatelessWidget {
         '/sized-box': (context) => SizedBoxPage(),
         '/sized-overflow-box': (context) => SizedOverflowBoxPage(),
         '/transform': (context) => TransformPage(),
+        '/stack': (context) => StackPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
