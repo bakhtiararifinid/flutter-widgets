@@ -11,6 +11,7 @@ import 'package:flutter_widgets/src/pages/constrained_box_page.dart';
 import 'package:flutter_widgets/src/pages/container_page.dart';
 import 'package:flutter_widgets/src/pages/drawer_page.dart';
 import 'package:flutter_widgets/src/pages/fitted_box_page.dart';
+import 'package:flutter_widgets/src/pages/fractionally_sized_box_page.dart';
 import 'package:flutter_widgets/src/pages/home.dart';
 import 'package:flutter_widgets/src/pages/icon_page.dart';
 import 'package:flutter_widgets/src/pages/image_page.dart';
@@ -52,6 +53,7 @@ class App extends StatelessWidget {
         '/aspect-ratio': (context) => AspectRatioPage(),
         '/constrained-box': (context) => ConstrainedBoxPage(),
         '/base-line': (context) => BaseLinePage(),
+        '/fractionally-sized-box': (context) => FractionallySizedBoxPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),

@@ -41,6 +41,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('BaseLine'),
             onTap: () => Navigator.of(context).pushNamed('/base-line'),
           ),
+          ListTile(
+            title: Text('FractionallySizedBox'),
+            onTap: () => Navigator.of(context).pushNamed('/fractionally-sized-box'),
+          ),
         ],
       ),
     );
