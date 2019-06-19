@@ -9,6 +9,14 @@ class LayoutPage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text(
+              'Single Child Layout',
+              style: Theme.of(context).textTheme.headline,
+            ),
+          ),
+          Divider(),
           ListTile(
             title: Text('Container'),
             onTap: () => Navigator.of(context).pushNamed('/container'),
@@ -43,7 +51,8 @@ class LayoutPage extends StatelessWidget {
           ),
           ListTile(
             title: Text('FractionallySizedBox'),
-            onTap: () => Navigator.of(context).pushNamed('/fractionally-sized-box'),
+            onTap: () =>
+                Navigator.of(context).pushNamed('/fractionally-sized-box'),
           ),
           ListTile(
             title: Text('IntrinsicHeight'),
@@ -76,6 +85,22 @@ class LayoutPage extends StatelessWidget {
           ListTile(
             title: Text('Transform'),
             onTap: () => Navigator.of(context).pushNamed('/transform'),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text(
+              'Multi Child Layout',
+              style: Theme.of(context).textTheme.headline,
+            ),
+          ),
+          Divider(),
+          ListTile(
+            title: Text('Row'),
+            onTap: () => Navigator.of(context).pushNamed('/row'),
+          ),
+          ListTile(
+            title: Text('Column'),
+            onTap: () => Navigator.of(context).pushNamed('/column'),
           ),
         ],
       ),
