@@ -12,6 +12,7 @@ import 'package:flutter_widgets/src/pages/container_page.dart';
 import 'package:flutter_widgets/src/pages/drawer_page.dart';
 import 'package:flutter_widgets/src/pages/fitted_box_page.dart';
 import 'package:flutter_widgets/src/pages/fractionally_sized_box_page.dart';
+import 'package:flutter_widgets/src/pages/grid_view_page.dart';
 import 'package:flutter_widgets/src/pages/home.dart';
 import 'package:flutter_widgets/src/pages/icon_page.dart';
 import 'package:flutter_widgets/src/pages/image_page.dart';
@@ -74,6 +75,7 @@ class App extends StatelessWidget {
         '/transform': (context) => TransformPage(),
         '/stack': (context) => StackPage(),
         '/indexed-stack': (context) => IndexedStackPage(),
+        '/grid-view': (context) => GridViewPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),

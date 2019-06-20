@@ -110,6 +110,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('IndexsedStack'),
             onTap: () => Navigator.of(context).pushNamed('/indexed-stack'),
           ),
+          ListTile(
+            title: Text('GridView'),
+            onTap: () => Navigator.of(context).pushNamed('/grid-view'),
+          ),
         ],
       ),
     );
