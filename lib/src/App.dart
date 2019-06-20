@@ -19,6 +19,7 @@ import 'package:flutter_widgets/src/pages/image_page.dart';
 import 'package:flutter_widgets/src/pages/indexed_stack_page.dart';
 import 'package:flutter_widgets/src/pages/intrinsic_height_page.dart';
 import 'package:flutter_widgets/src/pages/intrinsic_width_page.dart';
+import 'package:flutter_widgets/src/pages/layout_builder_page.dart';
 import 'package:flutter_widgets/src/pages/layout_page.dart';
 import 'package:flutter_widgets/src/pages/limited_box_page.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
@@ -80,6 +81,7 @@ class App extends StatelessWidget {
         '/grid-view': (context) => GridViewPage(),
         '/table': (context) => TablePage(),
         '/wrap': (context) => WrapPage(),
+        '/layout-builder': (context) => LayoutBuilderPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
