@@ -10,6 +10,7 @@ import 'package:flutter_widgets/src/pages/column_page.dart';
 import 'package:flutter_widgets/src/pages/constrained_box_page.dart';
 import 'package:flutter_widgets/src/pages/container_page.dart';
 import 'package:flutter_widgets/src/pages/drawer_page.dart';
+import 'package:flutter_widgets/src/pages/expanded_page.dart';
 import 'package:flutter_widgets/src/pages/fitted_box_page.dart';
 import 'package:flutter_widgets/src/pages/fractionally_sized_box_page.dart';
 import 'package:flutter_widgets/src/pages/grid_view_page.dart';
@@ -84,6 +85,7 @@ class App extends StatelessWidget {
         '/wrap': (context) => WrapPage(),
         '/layout-builder': (context) => LayoutBuilderPage(),
         '/list-view': (context) => ListViewPage(),
+        '/expanded': (context) => ExpandedPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
