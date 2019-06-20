@@ -37,6 +37,7 @@ import 'package:flutter_widgets/src/pages/tab_bar.dart';
 import 'package:flutter_widgets/src/pages/table_page.dart';
 import 'package:flutter_widgets/src/pages/text_page.dart';
 import 'package:flutter_widgets/src/pages/transform_page.dart';
+import 'package:flutter_widgets/src/pages/wrap_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -78,6 +79,7 @@ class App extends StatelessWidget {
         '/indexed-stack': (context) => IndexedStackPage(),
         '/grid-view': (context) => GridViewPage(),
         '/table': (context) => TablePage(),
+        '/wrap': (context) => WrapPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
