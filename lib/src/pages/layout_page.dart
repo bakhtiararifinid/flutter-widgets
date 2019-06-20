@@ -114,6 +114,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('GridView'),
             onTap: () => Navigator.of(context).pushNamed('/grid-view'),
           ),
+          ListTile(
+            title: Text('Table'),
+            onTap: () => Navigator.of(context).pushNamed('/table'),
+          ),
         ],
       ),
     );
