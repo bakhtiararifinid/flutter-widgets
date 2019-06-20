@@ -126,6 +126,10 @@ class LayoutPage extends StatelessWidget {
             title: Text('LayoutBuilder'),
             onTap: () => Navigator.of(context).pushNamed('/layout-builder'),
           ),
+          ListTile(
+            title: Text('ListView'),
+            onTap: () => Navigator.of(context).pushNamed('/list-view'),
+          ),
         ],
       ),
     );

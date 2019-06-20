@@ -22,6 +22,7 @@ import 'package:flutter_widgets/src/pages/intrinsic_width_page.dart';
 import 'package:flutter_widgets/src/pages/layout_builder_page.dart';
 import 'package:flutter_widgets/src/pages/layout_page.dart';
 import 'package:flutter_widgets/src/pages/limited_box_page.dart';
+import 'package:flutter_widgets/src/pages/list_view_page.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
 import 'package:flutter_widgets/src/pages/offstage_page.dart';
 import 'package:flutter_widgets/src/pages/overflow_box_page.dart';
@@ -82,6 +83,7 @@ class App extends StatelessWidget {
         '/table': (context) => TablePage(),
         '/wrap': (context) => WrapPage(),
         '/layout-builder': (context) => LayoutBuilderPage(),
+        '/list-view': (context) => ListViewPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
