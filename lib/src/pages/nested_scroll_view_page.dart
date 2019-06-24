@@ -32,7 +32,7 @@ class _NestedScrollViewPageState extends State<NestedScrollViewPage>
         headerSliverBuilder: (BuildContext context, bool boxIsScrolled) {
           return <Widget>[
             SliverAppBar(
-              title: Text('Tab Controller Example'),
+              title: Text('NestedScrollView'),
               pinned: true,
               floating: true,
               forceElevated: boxIsScrolled,
