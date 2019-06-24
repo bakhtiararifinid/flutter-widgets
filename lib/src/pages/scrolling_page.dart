@@ -26,6 +26,10 @@ class ScrollingPage extends StatelessWidget{
               title: Text('SingleChildScrollView'),
               onTap: () => Navigator.of(context).pushNamed('/single-child-scroll-view'),
             ),
+            ListTile(
+              title: Text('Scrollbar'),
+              onTap: () => Navigator.of(context).pushNamed('/scrollbar'),
+            ),
           ],
         ),
       ),

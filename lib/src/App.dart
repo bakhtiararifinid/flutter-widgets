@@ -33,6 +33,7 @@ import 'package:flutter_widgets/src/pages/placeholder_page.dart';
 import 'package:flutter_widgets/src/pages/raised_button_page.dart';
 import 'package:flutter_widgets/src/pages/row_page.dart';
 import 'package:flutter_widgets/src/pages/scaffold_page.dart';
+import 'package:flutter_widgets/src/pages/scrollbar_page.dart';
 import 'package:flutter_widgets/src/pages/scrolling_page.dart';
 import 'package:flutter_widgets/src/pages/single_child_scroll_view_page.dart';
 import 'package:flutter_widgets/src/pages/sized_box.dart';
@@ -92,6 +93,7 @@ class App extends StatelessWidget {
         '/scrolling': (context) => ScrollingPage(),
         '/nested-scroll-view': (context) => NestedScrollViewPage(),
         '/single-child-scroll-view': (context) => SingleChildScrollViewPage(),
+        '/scrollbar': (context) => ScrollbarPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
