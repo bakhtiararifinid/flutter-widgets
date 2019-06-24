@@ -18,6 +18,10 @@ class ScrollingPage extends StatelessWidget{
               title: Text('ListView'),
               onTap: () => Navigator.of(context).pushNamed('/list-view'),
             ),
+            ListTile(
+              title: Text('NestedScrollView'),
+              onTap: () => Navigator.of(context).pushNamed('/nested-scroll-view'),
+            ),
           ],
         ),
       ),

@@ -25,6 +25,7 @@ import 'package:flutter_widgets/src/pages/layout_page.dart';
 import 'package:flutter_widgets/src/pages/limited_box_page.dart';
 import 'package:flutter_widgets/src/pages/list_view_page.dart';
 import 'package:flutter_widgets/src/pages/material_page.dart';
+import 'package:flutter_widgets/src/pages/nested_scroll_view_page.dart';
 import 'package:flutter_widgets/src/pages/offstage_page.dart';
 import 'package:flutter_widgets/src/pages/overflow_box_page.dart';
 import 'package:flutter_widgets/src/pages/padding_page.dart';
@@ -88,6 +89,7 @@ class App extends StatelessWidget {
         '/list-view': (context) => ListViewPage(),
         '/expanded': (context) => ExpandedPage(),
         '/scrolling': (context) => ScrollingPage(),
+        '/nested-scroll-view': (context) => NestedScrollViewPage(),
         '/material-design': (context) => MaterialDesignPage(),
         '/scaffold': (context) => ScaffoldPage(),
         '/appbar': (context) => AppBarPage(),
