@@ -19,6 +19,10 @@ class HomePage extends StatelessWidget{
               onTap: () => Navigator.of(context).pushNamed('/layout'),
             ),
             ListTile(
+              title: Text('Scrolling'),
+              onTap: () => Navigator.of(context).pushNamed('/scrolling'),
+            ),
+            ListTile(
               title: Text('Material Design'),
               onTap: () => Navigator.of(context).pushNamed('/material-design'),
             ),
