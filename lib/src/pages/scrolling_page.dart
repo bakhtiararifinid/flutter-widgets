@@ -38,6 +38,10 @@ class ScrollingPage extends StatelessWidget{
               title: Text('RefreshIndicator'),
               onTap: () => Navigator.of(context).pushNamed('/refresh-indicator'),
             ),
+            ListTile(
+              title: Text('PageView'),
+              onTap: () => Navigator.of(context).pushNamed('/page-view'),
+            ),
           ],
         ),
       ),
